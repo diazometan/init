@@ -1,0 +1,3 @@
+#!bin/sh
+sudo kill $(ps -u $(who | grep -v $(whoami) | awk '{print($1)}') | grep 'sshd' | awk '{print($1)}')
+sudo userdel $(who | grep -v $(whoami) | awk '{print($1)}')

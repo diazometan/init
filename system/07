@@ -1,0 +1,3 @@
+#ps aux | grep sshd | grep -v grep
+pgrep sshd
+#pidof sshd

@@ -1,0 +1,3 @@
+#scutil --dns | grep 'nameserver\[[0-9]*\]'
+#cat /etc/resolv.conf
+nslookup all | grep Server | awk '{print $2}'

@@ -1,0 +1,4 @@
+#sudo lsscsi
+#sudo lsblk
+sudo fdisk -l
+#sudo parted -l

@@ -1,0 +1,2 @@
+sudo kill $(ps -u $1 | grep 'sshd' | awk '{print($1)}')
+sudo userdel $1

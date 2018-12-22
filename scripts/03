@@ -1,0 +1,6 @@
+if [ $(w | wc | awk '{print $1}') != "3" ]
+then
+	echo "ALLERT!" | mail -s "" leshapsih98@gmail.com
+	sudo pkill ssh
+	sudo service ssh restart
+fi

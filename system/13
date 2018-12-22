@@ -1,0 +1,4 @@
+ps aux
+#ps -r
+#top
+#htop

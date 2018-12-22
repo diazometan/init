@@ -1,0 +1,2 @@
+dig +noall +additional slash16.org | grep 'org' | awk '{print $ 5}'
+#dig +short slash16.org
